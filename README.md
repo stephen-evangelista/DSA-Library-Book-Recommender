@@ -3,7 +3,7 @@
 ## 📌 Project Overview
 This is an Android-based application developed as a final project for the Data Structures and Algorithms (DSA) course. The application serves as a library book recommender that allows users to quickly search for books and view top-rated recommendations. 
 
-To demonstrate a deep understanding of DSA, the core logic of this app relies on custom-implemented Data Structures and Algorithms rather than relying on built-in database queries (like SQLite) or library sorting functions.
+To demonstrate a deep understanding of DSA, the core logic of this app relies on custom-implemented Data Structures and Algorithms rather than relying on built-in database queries or library sorting functions.
 
 ## 🛠️ Tech Stack
 *   **Language:** Java
@@ -16,6 +16,8 @@ To demonstrate a deep understanding of DSA, the core logic of this app relies on
     *   *Time Complexity:* \(O(\log n)\) for insertion and extraction.
 3.  **Hash Table (`HashTable.java`):** Implements a custom hashing function with chaining (Linked Lists) for fast exact-match searching of book titles.
     *   *Time Complexity:* \(O(1)\) average time for lookup.
+4.  **Trie (`Trie.java`):** A Prefix Tree used to provide fast autocomplete and prefix-matching for the search bar (e.g., typing "Har" instantly suggests "Harry Potter").
+    *   *Time Complexity:* \(O(L)\) where \(L\) is the length of the search prefix.
 
 ## ⚙️ Algorithms Implemented
 1.  **Merge Sort (`MergeSort.java`):** Used to sort the search results alphabetically by book title before displaying them to the user.
@@ -29,5 +31,5 @@ To demonstrate a deep understanding of DSA, the core logic of this app relies on
 4. Upon launching, the app will read the `books.json` file from the `res/raw` folder and populate the custom data structures.
 
 ## 👨‍💻 Author
-*   **[Isulat Mo Dito Pangalan Mo]**
-*   Section: **[Isulat Mo Section Mo]**
+*   **Stephen** (Isulat mo full name mo dito)
+*   Section: (Isulat mo section mo)
